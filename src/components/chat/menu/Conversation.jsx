@@ -55,7 +55,7 @@ const Conversation = ({ user }) => {
             setMessage({ text: data?.message, timestamp: data?.updatedAt });
         }
         getConversationMessage();
-    }, [newMessageFlag]);
+    }, [newMessageFlag,account.sub,user.sub]);
 
     const getUser = async () => {
         setPerson(user);
