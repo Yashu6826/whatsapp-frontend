@@ -1,7 +1,7 @@
 import { useState, useEffect, useContext, useRef } from 'react';
 import { Box, styled } from '@mui/material';
 
-import { io } from 'socket.io-client';
+
 
 import { getMessages, newMessages } from '../../../service/api';
 import { AccountContext } from '../../../context/AccountProvider';

@@ -22,7 +22,7 @@ const ChatBox = () => {
             setConversation(data);
         }
         getConversationDetails();
-    }, [person.sub]);
+    }, [account.sub,person.sub]);
 
     return (
         <Box style={{height: '75%'}}>
