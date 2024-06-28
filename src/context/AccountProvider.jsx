@@ -16,7 +16,7 @@ const AccountProvider = ({children}) => {
     const socket = useRef();
 
     useEffect(() => {
-        socket.current = io();
+        socket.current = io('https://playful-pithivier-2ebb2d.netlify.app');
     }, [])
 
     return (
