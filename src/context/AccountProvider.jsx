@@ -16,7 +16,7 @@ const AccountProvider = ({children}) => {
     const socket = useRef();
 
     useEffect(() => {
-        socket.current = io('https://playful-pithivier-2ebb2d.netlify.app');
+        socket.current = io('https://whatsapp-socketio-1.onrender.com');
     }, [])
 
     return (
