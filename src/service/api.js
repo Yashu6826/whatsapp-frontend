@@ -1,7 +1,7 @@
   
 import axios from 'axios';
 
-const url = 'https://whatsapp-backend-2.onrender.com';
+// const url = 'https://whatsapp-backend-2.onrender.com';
 
 export const addUser = async (data) => {
     try {
